@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>First Webpage</title>
+</head>
+<body>
+
+	<style type="text/css">
+	    body {
+   		 	background-color : navy;
+   		  	width: 420px;
+   		 	padding: 0 0 0;
+   		 	margin: auto;
+   		 	font-family: trebuchet MS;
+   		 }
+
+   		 .form input {
+   		 	color: gray;
+   		 	outline: 1;
+   		 	background: #f2f2f2;
+   		 	width: 100%;
+   		 	border: 0;
+   		 	margin: 0 auto 15px;
+   		 	padding: 15px;
+   		 	box-sizing: border-box;
+   		 	font-size: 14px;
+   		 }
+   		 img {
+   		 	 padding-top: 50px;
+   		 	 padding-bottom: 50px;
+ 			 display: block;
+ 			 margin-left: auto;
+  			 margin-right: auto;
+		}
+
+   		 select {
+   		 	font-family: trebuchet MS;
+   		 	outline: 1;
+   		 	background: #f2f2f2;
+   		 	color: #5D6D7E;
+   		 	width: 100%;
+   		 	border: 0;
+   		 	margin: 0 auto 15px;
+   		 	padding: 15px;
+   		 	box-sizing: border-box;
+   		 	font-size: 18px;
+   		 }
+   		 button {
+   		 	font-family: trebuchet MS;
+   		 	background-color:navy;
+   		 	border-radius: 15px 15px 15px 0px;
+   		 	outline: 1;
+   		 	color: white;
+   		 	background-color: : green;
+   		 	width: 100%;
+   		 	border: 0;
+   		 	margin: 0 auto 15px;
+   		 	padding: 15px;
+   		 	box-sizing: border-box;
+   		 	font-size: 18px;
+   		 }
+   		 button:hover{
+  			background-color: blue;
+  			color: white;
+		}
+   		 label {
+   		 	color: #5D6D7E;
+
+   		 }
+	</style>
+
+
+	<img src="logo.png" alt="piggyvest logo">
+
+	<div class="form" style="background-color:white; padding:30px; border-radius: 15px 15px 15px 0px;">
+
+	<form>
+			<h2 style ="color: navy; text-align: center";>Create a Secure Account</h2>
+		<h6 style ="color: gray; text-align: center";>Welocme to the future of savings and investments</h6>
+
+		 <label >Full Name </label><br>
+         <input type="text" name="first_name" placeholder="First Name" required /><br>
+
+         <label style="font-family: trebuchet MS;">Email Address </label><br>
+         <input type="text" name="Email" placeholder="Email Address" required /><br>
+
+         <label>Phone Number </label><br>
+         <input type="text" name="phone" placeholder="Phone Number" required /><br>
+
+         <label>Password </label><br>
+         <input type="text" name="Password" placeholder="Password" required /><br>
+
+         <label>Referrer phone or Promo Code(Optional) </label><br>
+         <input type="text" name="Referrer" placeholder="Referrer Phone OR Code" required /><br>
+
+         <label>How Did You Hear About US? (Optional) </label><br>
+         <select name="hear_about_us" required> <!--  creates drop down menu -->
+         	<option value=" ">Click To Select</option>
+         	<option value="Facebook ">Facebook</option>
+           	<option value="Twitter">Twitter</option>
+         	<option value="Instagram">Instagram</option>
+         	<option value="Fam_ref">Freind/Family/CoWorker Referral</option>
+         	<option value="Google_Search">Google Search</option>
+         	<option value="Google_playstore">Google playstore</option>
+         	<option value="Online_blog">Online blog</option>
+         	<option value="Other_newspaper">Other NewsPaper</option>
+         	<option value="Event">At an Event</option>
+         	<option value="Others">Others</option>
+         </select><br>
+
+         <button type="submit" name="submit" >CREATE ACOUNT</button><br>
+
+	</form>
+</div>
+
+         <h4 style="padding:20px; color: white"> Already have an account? Log In</h4>
+
+
+</body>
+</html>
+
